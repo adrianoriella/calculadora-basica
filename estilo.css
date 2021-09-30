@@ -1,0 +1,89 @@
+body{
+	background-color: #0C0D0C;
+}
+.principal{
+	background-color: #403D39;
+	margin: auto;
+	width: 1200px;
+	padding: 10px;
+}
+header{
+	background-color: #8C8074;
+	margin: auto;
+	width: 1200px;
+	height: 80px;
+}
+ 
+nav{
+	background-color: #8C8074;
+	margin: auto;
+	width: 1200px;
+	height: 40px;
+}
+ 
+section{
+	background-color: #8C8074;
+	margin: auto;
+	width: 1200px;
+	height: 600px;
+	float: center;
+}
+ 
+footer{
+	background-color:  #8C8074;
+	margin: auto;
+	width: 1200px;
+	height: 30px;
+
+}
+
+#visor {
+	background-color: white;
+	display: block;
+	margin: center;
+	border: 3px inset;
+	text-align: center;
+}
+
+table {
+	background-color: #BFAE9F;
+	margin: 10 auto 10 auto;
+	border: 3px outset;
+	border-radius: 5px;
+	text-align: center;
+}
+
+form fieldset {
+	background-image: url("office.jpg");
+	margin: auto;
+	width: 50%;
+	padding: 10%;	
+	border: 2px outset;
+	border-radius: 5px;
+}
+
+form input {
+	width: 100%;
+	border: auto;
+	font-family: Verdana;
+	font-size: 20px;
+	margin-bottom: 10px;
+	box-shadow:3px 3px 6px black;
+}
+
+form input.num {
+	background-color: #F2E5D5;
+	display: block;
+	width: 60px;
+	height: 40px;
+	cursor: pointer;  
+}
+
+form input.oper {
+   background-color: #353b48; 
+   color: #F2E5D5;
+   display: block;
+   width: 70px;
+   height: 50px;
+   cursor: pointer;
+}
